@@ -8,6 +8,8 @@ No HAL. No CubeMX.
 Every bit written intentionally.
 
 ## Drivers Overview
+### EXTI
+Handles external interrupts with flexible GPIO pin mapping. User can attach callbacks for each interrupt line.
 
 ### RCC Driver
 - Reads clock configuration registers
