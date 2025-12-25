@@ -22,6 +22,26 @@ Every bit written intentionally.
 - Polling & Interrupt modes
 - Configurable data size, parity, stop bits
 - Baud rate calculation without floating point
+## File Structure
+Drivers/
+├── Stm32_F103C6_Drivers/
+│ ├── RCC/
+│ │ └── RCC.c / RCC.h
+│ ├── GPIO/
+│ │ └── GPIO.c / GPIO.h
+│ ├── USART/
+│ │ └── USART.c / USART.h
+│ └── EXTI/
+│ └── EXTI.c / EXTI.h
+├── src/
+│ │ └── main.c
+├── HAL/
+│ ├── KEYPAD_DRIVER/
+│ │ └── KEYPAD.c / KEYPAD.h
+│ ├── LCD_DRIVER/
+│ │ └── LCD.c / LCD.h
+│ ├── Seven_Segment_DRIVER/
+│ │ └── Seven_Segment.c / Seven_Segment.h
 
 ## Getting Started
   ### Requirements
