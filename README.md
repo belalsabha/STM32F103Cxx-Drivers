@@ -1,44 +1,21 @@
 # STM32 Bare-Metal Drivers
 
-A collection of **MCAL-level drivers** for the STM32F103 (Blue Pill)
-implemented in pure **Bare-Metal C** using the STM32 Reference Manual.
+## 🔧 MCAL Drivers
+- ⚡ RCC Driver
+- 🔌 GPIO Driver
+- 🚨 EXTI Driver
+- 📡 USART Driver
+- 🔗 SPI Driver
+- 📶 I2C Driver
 
-## Philosophy
-No HAL. No CubeMX.
-Every bit written intentionally.
+## 🖥 HAL Drivers
+- ⌨️ Keypad Driver
+- 📟 LCD Driver
+- 🔢 Seven Segment Driver
 
-## Drivers Overview
-### EXTI
-Handles external interrupts with flexible GPIO pin mapping. User can attach callbacks for each interrupt line.
-
-### RCC Driver
-- Reads clock configuration registers
-- Calculates SYSCLK, HCLK, PCLK1, PCLK2
-- Handles prescalers and clock sources
-
-### GPIO Driver
-- Pin configuration (Input / Output / AF)
-- Pull-up / Pull-down support
-
-### USART Driver
-- Polling & Interrupt modes
-- Configurable data size, parity, stop bits
-- Baud rate calculation without floating point
+⭐ Don't forget to give the repository a star.
 
 
-## Getting Started
-  ### Requirements
-    - STM32F103C6 (Blue Pill)
-    - ARM GCC Toolchain or STM32CubeIDE
-    - USB to Serial adapter (if using USART debugging)
-    - ST-Link programmer (for flashing)
 
-    
-## Contributing
-1. Fork the repo
-2. Create a new branch
-3. Commit changes
-4. Open a Pull Request
 
-## License
-MIT License
+
