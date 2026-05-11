@@ -1,4 +1,4 @@
-# STM32 Bare-Metal Drivers
+# STM32 Drivers
 
 ## 🔧 MCAL Drivers
 -  RCC Driver
